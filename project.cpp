@@ -1,8 +1,4 @@
 /*AUTHOR 		: DEBRATH BANERJEE
-  STUDENT ID	: 50533487
-  COURSE ID		: CS6713
-  SUBJECT		: ADV ANALYSIS OF ALGORITHMS
-  INSTRUCTOR	: DR. Xiuzhen Huang
   PROJECT 		: Study and Implement the EXACT-APPEARANCE of Motif
 */
 #include <iostream>
@@ -58,7 +54,7 @@ vector<string_ref> f(const string& str, const int n)
 /*End Property*/ 
 /* Prepare Property Motif */
 	cout<<"Test Case 1\n";
-   /* cout<<" List of possible Motifs in first string are"<<"\n";
+   cout<<" List of possible Motifs in first string are"<<"\n";
     auto result = f(firstString, motifLength);
     int cnt=0,m=0;
     for(int i=0;i<lim/6;i++)
@@ -70,7 +66,7 @@ vector<string_ref> f(const string& str, const int n)
       cnt=m;
       cout<<"\n";
 	}
-	cout<<"\n-----------------------------------------------\n";*/
+	cout<<"\n-----------------------------------------------\n";
 /* End Property */
 
 /* Algorithm Implementation Start */
